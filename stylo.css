@@ -1,0 +1,383 @@
+
+/* header display and background */
+*
+{
+    font-family: "Droid Sans";
+}
+.listas
+{
+     
+    display: flex;
+    
+}
+.section
+{ 
+    display: flex; 
+    justify-content: center;
+      
+}
+ul{
+    list-style-type: none;
+    padding-right: 25px;
+    
+}
+#logo
+{
+display: flex; 
+padding-right: 80px;
+padding-top: 20px;
+
+
+}
+.titulo
+{
+    margin: 0px;
+    
+    font-size: 16px;
+    color: #7c7c7c;
+}
+.subtitle
+{
+    
+    font-size: 12px;
+    color: #7c7c7c;
+    padding-top: 7px;
+
+}
+.header
+{
+    background: url("img/grille.png");
+    background-repeat: repeat;
+    padding-top: 10px;
+    padding-bottom: 25px;   
+}
+/* lines */
+.linea1
+{
+    border: 0px;
+    height: 5px;
+    width: 150%;
+    
+}
+.linea2
+{
+    border: 0px;
+    height: 5px;
+    width: 140%;
+    
+}
+.linea3
+{
+    border: 0px;
+    height: 5px;
+    width: 152%;
+    
+}
+.linea4
+{
+    border: 0px;
+    height: 5px;
+    width: 152%;
+    
+}
+.linea5
+{
+    border: 0px;
+    height: 5px;
+    width: 152%;
+    
+}
+#orange
+{
+    background-color: #f76900;
+    border-color: #f76900;
+}
+#yellow
+{
+    background-color:#fcd04a;
+    border-color: #fcd04a;
+}
+#green
+{
+    background-color:#b9d482;
+    border-color: #b9d482;
+}
+#blue
+{
+    background-color: #3d92c2;
+    border-color: #3d92c2;
+}
+#purple
+{
+    background-color: #c078d0;
+    border-color: #c078d0;
+}
+/* ********************************************** */
+
+/* part Separator */
+.Separator 
+{
+    opacity: 25%;
+}
+
+#video
+{
+    margin: 35px 25px 35px 35px;
+    display: flex;
+    justify-content: center;
+}
+/* ????? */
+#video2
+{
+frameborder="0"
+}
+
+/* box  */
+
+#separator2
+{
+    background: url("img/grille.png");
+    background-repeat: repeat;
+    padding-top: 10px;
+    padding-bottom: 25px;  
+}
+#box
+{
+    
+    height: 60px;
+    
+}
+#textbox
+{
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+    font-family: "Droid Serif";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    color: #7c7c7c;
+}
+/*  content */
+/* conteneor1 */
+#container_contenido
+{
+    display: flex; 
+    justify-content: center;
+    margin-top: 35px;
+    height: 450px;
+}
+#contenido1
+{
+    height: 350px;
+    width: 200px;
+    border: 1.5px solid #7c7c7c65;
+    padding: 13px 25px 0px 12px;
+    margin-top: 2px;
+    
+   
+}
+/* contenedor 2 */
+#contenido2
+{
+   /* haut | droit | bas | gauche */
+    height: 520px;
+    width: 220px;
+    padding: 13px 25px 13px 25px;
+    margin-top: 2.5px;
+}
+#contenedor2_1
+{
+    padding-bottom: 20px;
+}
+/* contenedor3 */
+
+#contenido3
+{
+    width: 470px;
+    padding: 13px;
+    margin-top: 2.5px;
+}
+.cont_title
+{
+    
+    font-size: 18px;
+    color:#f76900;
+    margin: 15px 0px 0px 0px;
+    
+}
+  .grid
+   {
+    display: grid;
+    grid-template-columns: repeat(3,128px);  /* 3 columns */
+    grid-template-rows: repeat(2, 100px); /* 3 rows  */
+    grid-gap:12px 12px; /* 50 pixels of space added between rows and 25 pixels added between columns  */
+    justify-content: left;
+    
+}
+  
+  .grid-item{
+    border:thin #7c7c7c65 solid;
+    padding:8.9px 10px 0px 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.158);
+  }
+ .texto_contenido
+ {
+    color: #7c7c7c;
+    font-weight:lighter;
+    margin: 8px 0px 16px 0px;
+    margin: 12px 0px 5px 0px;
+    line-height : 20px;
+
+ }
+
+ .publie
+ {
+    color: #7c7c7cc9;
+    font-weight:lighter;
+    font-style: italic;
+    margin: 8px 0px 10px 0px;
+    font-family: "Droid+Serif";
+ }
+ .lire
+ {
+     /* haut | droit | bas | gauche */
+    color: #7c7c7cc9;
+    font-weight:lighter;
+    font-style: italic;
+    font-family: "Droid+Serif";
+    margin: 10px 0px 16px 0px;
+    font-size: 15px;
+
+ }
+
+ /* FOOTER */
+ #footer_titles
+ {
+    display: flex; 
+    justify-content: center;
+    
+ }
+#footer_container
+ {
+    background: url("img/grille.png");
+    background-repeat: repeat;
+    padding-top: 10px;
+    padding-bottom: 25px; 
+ }
+ #conaiter_footer
+ {
+    display: flex; 
+    justify-content: center;
+    
+ }
+ #titlespadding1
+ {
+    width: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #7c7c7c;
+    /* padding-right:  20px; */
+ }
+ #titlespadding2
+ {
+    width: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #7c7c7c;
+ }
+ #titlespadding3
+ {
+    width: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #7c7c7c;
+ }
+ #titlespadding4
+ {
+    width: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #7c7c7c;
+    
+ }
+ /* footer content */
+ ol
+ {
+    list-style-type: none;
+    padding-left: 0px;
+
+ }
+/* NOUS CONTACTER */
+ #conaiter_contacter
+ {
+    
+    line-height : 30px;
+    color: #7c7c7c;
+    font-weight:lighter;
+    font-size: 12px;
+   
+    
+ }
+ #transparente
+ {
+   opacity: 0;
+ }
+ 
+ 
+ 
+ /* denier billet */
+ #conaiter_contacter2
+ {
+    width: 220px;
+    color: #7c7c7c;
+    font-weight:lighter;
+    padding-left: 106px;
+    font-size: 12px;
+    line-height : 25.8px;
+ }
+ /* comentaire*/
+ #conaiter_contacter3
+ {
+    color: #7c7c7c;
+    font-weight:lighter;
+    width: 220px;
+    font-size: 12px;
+    padding-left: 45px;
+    line-height : 25.8px;
+ }
+ /* blablaland */
+ 
+ #conaiter_contacter4
+ {
+    color: #7c7c7c;
+    font-weight:lighter;
+    width: 220px;
+    font-size: 12px;
+    padding-left: 40px;
+    line-height : 25.8px;
+ }
+ #contacticon
+ {
+     background-image: url(img\accueil_icone.png);
+ }
+ /* texto italic footer */
+
+ #textItalic, 
+ #textItalic2
+ {
+     font-size: 12px;
+    font-weight: lighter;
+    color: #7c7c7cbe;
+    font-family: "Droid+Serif";
+ }
+ #downleft
+ {
+    display: flex; 
+    justify-content: center;
+ }
+ #iconocontact
+ {
+    
+    clip:rect(10px,10px, 10px, 10px);
+ }
